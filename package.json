@@ -70,7 +70,7 @@
     "katex": "^0.9.0",
     "lodash": "^4.11.1",
     "lodash-move": "^1.1.1",
-    "markdown-it": "^6.0.1",
+    "markdown-it": "^10.0.0",
     "markdown-it-admonition": "^1.0.4",
     "markdown-it-emoji": "^1.1.1",
     "markdown-it-footnote": "^3.0.0",
