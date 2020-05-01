@@ -1,0 +1,36 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-01T04:27:11.844Z'
+    - lodash-move > lodash:
+        patched: '2020-05-01T04:27:11.844Z'
+    - mermaid > lodash:
+        patched: '2020-05-01T04:27:11.844Z'
+    - react-debounce-render > lodash:
+        patched: '2020-05-01T04:27:11.844Z'
+    - react-redux > lodash:
+        patched: '2020-05-01T04:27:11.844Z'
+    - react-sortable-hoc > lodash:
+        patched: '2020-05-01T04:27:11.844Z'
+    - redux > lodash:
+        patched: '2020-05-01T04:27:11.844Z'
+    - mermaid > graphlibrary > lodash:
+        patched: '2020-05-01T04:27:11.844Z'
+    - mermaid > dagre-layout > lodash:
+        patched: '2020-05-01T04:27:11.844Z'
+    - mermaid > dagre-d3-renderer > lodash:
+        patched: '2020-05-01T04:27:11.844Z'
+    - aws-sdk > xml2js > xmlbuilder > lodash:
+        patched: '2020-05-01T04:27:11.844Z'
+    - mermaid > dagre-layout > graphlibrary > lodash:
+        patched: '2020-05-01T04:27:11.844Z'
+    - mermaid > dagre-d3-renderer > dagre-layout > lodash:
+        patched: '2020-05-01T04:27:11.844Z'
+    - aws-sdk-mobile-analytics > aws-sdk > xml2js > xmlbuilder > lodash:
+        patched: '2020-05-01T04:27:11.844Z'
+    - mermaid > dagre-d3-renderer > dagre-layout > graphlibrary > lodash:
+        patched: '2020-05-01T04:27:11.844Z'
