@@ -12,7 +12,9 @@
     "jest": "jest",
     "fix": "eslint . --fix",
     "lint": "eslint .",
-    "dev": "node dev-scripts/dev.js"
+    "dev": "node dev-scripts/dev.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "config": {
     "electron-version": "2.0.7"
@@ -82,7 +84,7 @@
     "markdown-it-smartarrows": "^1.0.1",
     "markdown-toc": "^1.2.0",
     "mdurl": "^1.0.1",
-    "mermaid": "^8.0.0-rc.8",
+    "mermaid": "^8.0.0",
     "moment": "^2.10.3",
     "mousetrap": "^1.6.1",
     "mousetrap-global-bind": "^1.1.0",
@@ -100,7 +102,8 @@
     "sanitize-html": "^1.18.2",
     "striptags": "^2.2.1",
     "unique-slug": "2.0.0",
-    "uuid": "^3.2.1"
+    "uuid": "^3.2.1",
+    "snyk": "^1.653.0"
   },
   "devDependencies": {
     "ava": "^0.25.0",
@@ -178,5 +181,6 @@
       "<rootDir>/tests/jest.js",
       "jest-localstorage-mock"
     ]
-  }
+  },
+  "snyk": true
 }
